@@ -1,0 +1,177 @@
+body {
+  background-color: #ddd;
+  color: #a60c40;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+/* ///////////////////////////////////////////////// */
+
+h3, h2 {
+  font-weight: 400;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* title section */
+
+#title {
+  background-color: #a60c40;
+  color: #ddd;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.header-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  border-radius: 20px;
+  width: 60%;
+  right: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.title-img-div {
+  position: relative;
+}
+
+/* Features */
+#features {
+  /* line-height: 1.5; */
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.orange-icon {
+  color: #a60c40;
+  margin-bottom: 1.5rem;
+}
+
+.orange-icon:hover {
+  color: #f0286b;
+}
+
+.features-title {
+  font-weight: 400;
+}
+
+.features-text {
+  color: #808080;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #a60c40;
+  color: #ddd;
+}
+
+.testimonials-text {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  margin: 20px 20px 50px;
+  width: 10%;
+}
+
+/* press */
+#press {
+  background-color: #a60c40;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px;
+  width: 15%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* --------- media query --------- */
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* Call to Action */
+#cta {
+  background-color: #a60c40;
+  color: #ddd;
+  padding: 7% 32%;
+}
+
+.cta-header {
+  line-height: 1.5;
+}
+
+.cta-button {
+  margin: 30px 10px;
+}
+
+/* footer */
+#footer {
+  background-color: #ddd;
+  color: #808080;
+}
+
+.footer-icon {
+  color: #a60c40;
+  padding: 10px;
+}
